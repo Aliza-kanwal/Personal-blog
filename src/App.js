@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div className={`min-h-screen transition-colors duration-300 ${
-      isDarkMode ? 'dark bg-[#1a1a1a]' : 'bg-gradient-to-br from-[#FAF6F0] to-[#FFE4D6]'
+      isDarkMode ? 'dark bg-gray-900' : 'bg-gradient-to-br from-[#FAF6F0] to-[#FFE4D6]'
     }`}>
       <BlogHeader 
         categories={categories}
@@ -48,18 +48,13 @@ function App() {
       <main className="container mx-auto px-4 py-12">
         <BlogPosts posts={filteredPosts} isDarkMode={isDarkMode} />
       </main>
-
-      <footer className={`mt-16 py-8 text-center border-t transition-colors duration-300 ${
-        isDarkMode 
-          ? 'border-[#333] text-gray-400' 
-          : 'border-[#E7B4A3]/30 text-[#8B7A6B]'
-      }`}>
-        <p className="text-sm">
-          © 2026 My Personal Blog • Designed with warmth
-        </p>
-      </footer>
     </div>
   );
 }
 
-export default App;
+export default App;& "C:\Program Files\Git\bin\git.exe" add src/App.js
+& "C:\Program Files\Git\bin\git.exe" add src/components/BlogHeader.js
+& "C:\Program Files\Git\bin\git.exe" add src/components/BlogCard.js
+& "C:\Program Files\Git\bin\git.exe" add src/components/BlogPosts.js
+& "C:\Program Files\Git\bin\git.exe" add src/components/ThemeToggle.js
+& "C:\Program Files\Git\bin\git.exe" add src/data/blogData.js
