@@ -52,9 +52,4 @@ function App() {
   );
 }
 
-export default App;& "C:\Program Files\Git\bin\git.exe" add src/App.js
-& "C:\Program Files\Git\bin\git.exe" add src/components/BlogHeader.js
-& "C:\Program Files\Git\bin\git.exe" add src/components/BlogCard.js
-& "C:\Program Files\Git\bin\git.exe" add src/components/BlogPosts.js
-& "C:\Program Files\Git\bin\git.exe" add src/components/ThemeToggle.js
-& "C:\Program Files\Git\bin\git.exe" add src/data/blogData.js
+export default App;
